@@ -1,0 +1,19 @@
+.animation {
+     animation: animasi 3s infinite alternate;
+     width: 100%;
+     display: flex;
+     margin: 14px auto;
+}
+
+@keyframes animasi {
+     3% {
+          transform: translateY(1);
+     }
+     100% {
+          transform: translateY(-8px);
+     }
+}
+
+body {
+     font-family: 'Amita', sans-serif;
+}
